@@ -1,7 +1,24 @@
 body {
-    display: flex;
-    justify-content: center; /* 水平居中 */
-    align-items: center; /* 垂直居中 */
-    height: 100vh; /* 使 body 高度占满视口 */
-    margin: 0; /* 去掉默认 margin */
+    background-color: #f0f0f0; /* 浅灰色背景 */
+    text-align: center; /* 居中对齐 */
+    font-family: Arial, sans-serif; /* 设置字体 */
+}
+h1 {
+    font-size: 3em; /* 大标题 */
+    color: #4a90e2; /* 蓝色 */
+}
+
+h2 {
+    font-size: 1.5em; /* 小标题 */
+    color: #7f8c8d; /* 灰色 */
+}
+footer {
+    margin-top: 20px; /* 上边距 */
+    font-size: 0.8em; /* 字体稍小 */
+    color: #bdc3c7; /* 淡灰色 */
+}
+@media (max-width: 600px) {
+    h1 {
+        font-size: 2em; /* 小屏幕上减小字体 */
+    }
 }
