@@ -1,0 +1,7 @@
+body {
+    display: flex;
+    justify-content: center; /* 水平居中 */
+    align-items: center; /* 垂直居中 */
+    height: 100vh; /* 使 body 高度占满视口 */
+    margin: 0; /* 去掉默认 margin */
+}
