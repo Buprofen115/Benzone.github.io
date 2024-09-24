@@ -31,3 +31,9 @@ html, body {
 	background-color: #f0f000;
 	height: 100vh;
 }
+
+@media (max-width: 768px) {
+    html {
+        font-size: 90%; /* 在手机上略微减小基准字体大小 */
+    }
+}
