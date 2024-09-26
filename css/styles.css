@@ -28,11 +28,18 @@ html, body {
 }
 
 .mainTitle{
-	margin-top: 25vh;
-	font-size: 8rem;
+	font-size: 3rem;
 }
 
 .subTitle{
 	font-size: 1.5rem;
 	text-align: center;
+}
+
+#Homepage{
+	height: 100vh;
+}
+
+#homePageTitle{
+	margin-top: 40vh;
 }
