@@ -11,35 +11,63 @@ html, body {
     height: 100%;
 }
 
-.nav{
-	height: 4rem;
-	background-color: #202020;
-	color: #f0f0f0;
+#fullpage{
+	transition: background-color 0.5s, color 0.5s;
+}
+	
+#homepage{
+	background-color: #282828;
+	width: 100vw;
 }
 
-.nav-items{
-	line-height: 4rem;
-	padding: 0 1rem;
+#center-title{
+	position: relative;
+	top: 280px;
+	width: 240px;
+}
+
+.main-title h1{
+	font-family: Kingsoft_Cloud_Font;
+	font-size: 64px;
+	text-align: center;
+	font-variation-settings: "opsz" auto;
+	background: linear-gradient(180deg, #F0F0F0 30%, rgba(240, 240, 240, 0) 87%);
+	-webkit-background-clip: text;
+	 -webkit-text-fill-color: transparent;
+	background-clip: text;
+	 text-fill-color: transparent;
+}
+
+.sub-title{
+	font-family: Kingsoft_Cloud_Font;
+	font-size: 14px;
+	text-align: center;
+	letter-spacing: 0.2em;
+	color: #F0F0F0;
 }
 
 .center{
-	display: flex; /* 使用 flexbox 布局 */
-	    justify-content: center; /* 子元素水平居中 */
-}
-
-.mainTitle{
-	font-size: 3rem;
-}
-
-.subTitle{
-	font-size: 1.5rem;
+	display: flex;
+	justify-content: center;
 	text-align: center;
 }
 
-#Homepage{
-	height: 100vh;
+.arrow-down{
+	position: relative;
+	top: 400px;
+	transition: stroke-width 0.3s;
 }
 
-#homePageTitle{
-	margin-top: 40vh;
+.arrow-down:hover{
+	stroke-width: 3;
+}
+
+.sentence{
+	position: relative;
+	top: 420px;
+	font-family: Source Han Serif CN;
+	font-size: 18px;
+	font-weight: 600;
+	text-align: center;
+	color: #9E9E9E;
 }
