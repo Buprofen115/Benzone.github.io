@@ -1,10 +1,3 @@
-@font-face {
-    font-family: 'Kingsoft';
-    src: url('../font/Kingsoft_Cloud_Font.ttf') format('truetype');
-    font-weight: normal;
-    font-style: oblique;
-}
-
 * {
     margin: 0;
     padding: 0;
@@ -16,6 +9,17 @@ a{
 
 html, body {
     height: 100%;
+	background-color: #282828;
+}
+
+@font-face {
+    font-family: 'Kingsoft';
+    src: url('../font/Kingsoft_Cloud_Font.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Siyuan';
+    src: url('../font/SourceHanSerifCN-Regular.otf') format('opentype');
 }
 
 #fullpage{
@@ -33,11 +37,10 @@ html, body {
 	width: 400px;
 }
 
-.main-title h1{
+.main-title{
 	font-family: 'Kingsoft';
-	font-size: 64px;
+	font-size: 2rem;
 	text-align: center;
-	font-variation-settings: "opsz" auto;
 	background: linear-gradient(180deg, #F0F0F0 30%, rgba(240, 240, 240, 0) 87%);
 	-webkit-background-clip: text;
 	 -webkit-text-fill-color: transparent;
@@ -46,8 +49,8 @@ html, body {
 }
 
 .sub-title{
-	font-family: Kingsoft_Cloud_Font;
-	font-size: 14px;
+	font-family: 'Kingsoft';
+	font-size: 1rem;
 	text-align: center;
 	letter-spacing: 0.2em;
 	color: #F0F0F0;
@@ -72,11 +75,8 @@ html, body {
 .sentence{
 	position: relative;
 	top: 420px;
-	font-family: Source Han Serif CN;
+	font-family: 'Siyuan';
 	font-size: 18px;
-	font-weight: 600;
 	text-align: center;
 	color: #9E9E9E;
 }
-
-
