@@ -1,3 +1,10 @@
+@font-face {
+    font-family: 'Kinsoft';
+    src: url('Benzone.github.io/font/Kingsoft_Cloud_Font.ttf') format('truetype');
+    font-weight: normal;
+    font-style: oblique;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -27,7 +34,7 @@ html, body {
 }
 
 .main-title h1{
-	font-family: img/Kingsoft_Cloud_Font.ttf;
+	font-family: 'font/Kingsoft_Cloud_Font.ttf';
 	font-size: 64px;
 	text-align: center;
 	font-variation-settings: "opsz" auto;
@@ -71,3 +78,5 @@ html, body {
 	text-align: center;
 	color: #9E9E9E;
 }
+
+
