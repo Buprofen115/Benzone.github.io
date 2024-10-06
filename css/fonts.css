@@ -1,0 +1,15 @@
+
+@font-face {
+    font-family: 'Kingsoft';
+    src: url('../font/Kingsoft_Cloud_Font.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Siyuan';
+    src: url('../font/SourceHanSerifCN-Regular.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'Harmony';
+    src: url('../font/HarmonyOS_Sans_SC_Regular.ttf') format('truetype');
+}
