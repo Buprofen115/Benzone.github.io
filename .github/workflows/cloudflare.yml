@@ -13,4 +13,4 @@ jobs:
         uses: jsmrcaga/action-cloudflare-cache-purge@v1
         with:
           api-token: ${{ secrets.CLOUDFLARE_API_TOKEN }}
-          zone: your-cloudflare-zone-id
+          zone: 7abad4db5302d7e9e7c39ce796fc871c
