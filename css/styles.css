@@ -14,9 +14,18 @@ a:visited{
 
 html, body {
     height: 100%;
-	background-color: #4A90E2;
+	background-color: #242424;
 	color: #F0F0F0;
 	font-family: 'Harmony';
+}
+
+.head{
+	height: 120px;
+}
+
+.head-link{
+	margin-left: 24px;
+	line-height: 120px;
 }
 
 #fullpage{
@@ -185,6 +194,38 @@ html, body {
 	text-align: center;
 }
 
-.bookshelf{
-	position: ;
+.work-menu{
+	display: flex;
+	width: 100%;
+	float: left;
+	padding: 24px;
+	flex-wrap: wrap;
+}
+
+.work-items{
+	position: relative;
+	width: 327px;
+	height: 160px;
+	width: 327px;
+	height: 160px;
+	border-radius: 16px;
+	opacity: 1;
+	margin: 1rem;
+}
+
+.work-items p{
+	position: relative;
+	float: right;
+	margin-right: 16px;
+	top: 120px;
+	font-weight: 600;
+	font-size: 1.5rem;
+}
+
+#PPT{
+	background: linear-gradient(180deg, #F45380 0%, #662790 100%);
+}
+
+#graphic{
+	background: linear-gradient(180deg, #5383F4 0%, #27907E 100%);
 }
