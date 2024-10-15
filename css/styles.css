@@ -5,6 +5,11 @@
 
 a{
 	text-decoration: none;
+	color: #F0F0F0;
+}
+
+a:visited{
+	color: #F0F0F0;
 }
 
 html, body {
@@ -75,11 +80,16 @@ html, body {
 
 .section{
 	width: 100vw;
+	height: auto;
+	max-height: 100%;
+	overflow: auto;
 }
 
 .page-container{
-	height: 100vh;
+	height: 100%;
 	width: 100vw;
+	overflow: auto;
+	max-height: 100%;
 	}
 
 #bonjour{
@@ -114,7 +124,7 @@ html, body {
 	position: relative;
 	display: flex;
 	flex-wrap: wrap;
-	top: 180px;
+	top: 220px;
 	justify-content: center;
 }
 
@@ -148,4 +158,41 @@ html, body {
 .menu-items p{
 	margin-top: 4px;
 	font-size: 10px;
+}
+
+.download-button{
+	position: relative;
+	top: 80px;
+	border: #F0F0F0 1px solid;
+	width: 120px;
+	border-radius: 4px;
+	color: #F0F0F0;
+	height: 24px;
+	text-align: center;
+	font-size: 16px;
+}
+
+.book-info{
+	border: #888888 2px solid;
+	border-radius: 8px;
+	margin: 8px;
+	padding: 4px;
+	height: 240px;
+	width: 200px;
+	display: grid;
+	justify-content: center;
+}
+
+.book-title{
+	position: relative;
+	top: 160px;
+	font-weight: 600;
+	font-size: 16px;
+	line-height: 16px;
+	height: 20px;
+	text-align: center;
+}
+
+.bookshelf{
+	position: ;
 }
