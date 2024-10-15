@@ -24,7 +24,6 @@ html, body {
 }
 	
 #homepage{
-	background-color: #282828;
 	width: 100vw;
 }
 
@@ -75,7 +74,7 @@ html, body {
 	font-family: 'Siyuan';
 	font-size: 18px;
 	text-align: center;
-	color: #9E9E9E;
+
 }
 
 .section{
@@ -113,16 +112,6 @@ html, body {
 	font-size: 16px;
 }
 
-@media (min-width:601px){
-	#bonjour{
-		margin-left: 24px; /* 清除左边距 */
-	}
-	
-	.page-container{
-		width: 600px;
-	}
-}
-
 .item-menu{
 	position: relative;
 	display: flex;
@@ -136,9 +125,9 @@ html, body {
     height: 160px;
     margin: 8px;
     border-radius: 20px;
-    background: #484848;
+    background: rgba(136, 136, 136, 0.2);
     box-sizing: border-box;
-    border: 2px solid #888888;
+    border: 1px solid rgba(136, 136, 136, 0.6);
     display: flex;
     justify-content: center;
     align-items: center;
