@@ -80,6 +80,9 @@ html, body {
 
 .section{
 	width: 100vw;
+}
+
+#second-page{
 	height: auto;
 	max-height: 100%;
 	overflow: auto;
