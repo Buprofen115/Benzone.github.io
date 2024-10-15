@@ -5,3 +5,7 @@ document.addEventListener('DOMContentLoaded', function() {
     });
 });
 
+window.addEventListener('beforeunload', function(event) {
+            // 强制刷新页面
+            location.reload(true);
+        });
