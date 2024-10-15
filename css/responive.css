@@ -1,0 +1,9 @@
+@media (min-width:601px){
+	#bonjour{
+		margin-left: 24px; /* 清除左边距 */
+	}
+	
+	.page-container{
+		width: 600px;
+	}
+}
