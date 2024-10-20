@@ -17,3 +17,34 @@
     font-family: 'Smiley';
     src: url('../font/SmileySans-Oblique.ttf') format('truetype');
 }
+
+@font-face {
+    font-family: 'Libre';
+    src: url('../font/LibreBaskerville-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Hanson';
+    src: url('../font/Hanson.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Yellowtail';
+    src: url('../font/Yellowtail-Regular.ttf') format('truetype');
+}
+
+.Siyuan{
+	font-family: 'Siyuan';
+}
+
+.Libre{
+	font-family: 'Libre';
+}
+
+.Yellowtail{
+	font-family: 'Yellowtail';
+}
+
+.Hanson{
+	font-family: 'Hanson';
+}
