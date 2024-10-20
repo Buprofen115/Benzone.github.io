@@ -195,28 +195,37 @@ html, body {
 }
 
 .work-menu{
+	padding: 16px;
 	display: flex;
-	width: 100%;
-	float: left;
+	justify-content: center;
 	flex-wrap: wrap;
 }
 
 .work-items{
-	position: relative;
-	width: 327px;
+	display: flex;
+	justify-content: flex-end;
+	align-items: flex-end;
+	padding: 12px;
+	width: 320px;
 	height: 160px;
 	border-radius: 16px;
-	opacity: 1;
-	margin: 1rem;
+	margin: 0 4px 16px;
 }
 
 .work-items p{
-	position: relative;
-	float: right;
-	margin-right: 16px;
-	top: 120px;
 	font-weight: 600;
 	font-size: 1.5rem;
+}
+
+@media (max-width: 400px) {
+    .work-items {
+		width: 80vw;
+		height: 40vw;
+		border-radius: 5vw;
+    }
+	.work-items p{
+		font-size: 6vw;
+	}
 }
 
 #PPT{
