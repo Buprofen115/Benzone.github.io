@@ -1,0 +1,90 @@
+#Mrzhu{
+	background-color: #007531;
+}
+
+.article-title{
+	font-size: 24px;
+	font-weight: bold;
+	color: #F0F0F0;
+}
+
+.article{
+	margin: 0 24px;
+}
+
+.article img{
+	width: 90%;
+	max-width: 720px;
+	height: auto;
+	margin-top: 32px;
+	display: block; 
+	margin: 24px auto;
+}
+
+.header{
+	margin-top: 32px;
+	font-size: 18px;
+	font-weight: 500;
+	color: #F0F0F0;
+}
+
+.text{
+	margin-top: 16px;
+	font-size: 16px;
+	font-weight: normal;
+	line-height: 24px;
+	text-align: justify; /* 浏览器可能不支持 */
+	color: #9E9E9E;
+}
+
+@media (max-width: 600px) {
+    .text {
+        font-size: 14px; /* 在宽度小于600px时字体大小变为14px */
+    }
+}
+
+.font-container{
+	display: flex;
+	align-items: flex-end;
+	flex-wrap: wrap;
+	max-width: 280px;
+}
+
+.font-style{
+	display: flex;
+	margin-top: 16px;
+	margin-left: 32px;
+	flex-direction: column;
+	align-items: flex-start;
+	float: left;
+}
+
+.small-title{
+	display: inline;
+	font-size: 12px;
+	font-weight: normal;
+	color: #9E9E9E;
+	margin-bottom: auto;
+}
+
+.font-names{
+	display: flex;
+}
+
+.font-name{
+	margin-top: 4px;
+	font-size: 24px;
+	line-height: 36px;
+	font-weight: 500;
+	color: #F0F0F0;
+}
+
+.seperator{
+	margin: auto 8px;
+	color: #9E9E9E;
+	font-size: 24px;
+}
+
+.end{
+	height: 80px;
+}
