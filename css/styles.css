@@ -27,10 +27,6 @@ html, body {
 	margin-left: 24px;
 	line-height: 120px;
 }
-
-#fullpage{
-	transition: background-color 0.5s, color 0.5s;
-}
 	
 #homepage{
 	width: 100vw;
@@ -204,28 +200,36 @@ html, body {
 .work-items{
 	display: flex;
 	justify-content: flex-end;
-	align-items: flex-end;
-	padding: 12px;
+	position: relative;
 	width: 320px;
 	height: 160px;
 	border-radius: 16px;
-	margin: 0 4px 16px;
+	margin: 0 8px 16px;
 }
 
-.work-items p{
+.item-title{
+	display: flex;
+	flex-direction: column;
+	align-items: flex-end;
+	justify-content: flex-end;
+	margin: 0 16px 16px;
+}
+
+.item-name{
 	font-weight: 600;
 	font-size: 1.5rem;
 }
 
-@media (max-width: 400px) {
-    .work-items {
-		width: 80vw;
-		height: 40vw;
-		border-radius: 5vw;
-    }
-	.work-items p{
-		font-size: 6vw;
-	}
+.item-nickname{
+	font-size: 0.75rem;
+	font-family: 'Hanson';
+}
+
+.item-ico{
+	position: absolute;
+	top: 50%;
+	left: 25%;
+	transform: translate(-50%, -50%);
 }
 
 #PPT{
