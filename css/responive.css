@@ -15,5 +15,25 @@
     }
 }
 
+@media (max-width: 400px) {
+    .work-items {
+		width: 80vw;
+		height: 40vw;
+		border-radius: 5vw;
+    }
+	.item-name{
+		font-size: 6vw;
+	}
+	
+	.item-nickname{
+		font-size:4vw: 
+	}
+	
+	.item-ico object{
+		height: 24vw;
+		width: auto;
+	}
+}
+
 
 
