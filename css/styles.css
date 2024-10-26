@@ -19,39 +19,41 @@ html, body {
 	font-family: 'Harmony';
 }
 
-.head{
-	height: 120px;
+#homepage{
 }
 
-.head-link{
-	margin-left: 24px;
-	line-height: 120px;
+.fp-tableCell{
+	display: flex;
 }
-	
-#homepage{
-	width: 100vw;
+
+.vcenter{
+	height: 75vh;
+	display: grid;
+	margin: auto;
+	align-items: center;
 }
 
 #center-title{
+	display: grid;
 	position: relative;
-	top: 280px;
-	width: 400px;
+	align-items: center;
 }
 
 .main-title{
+	position: relative;
 	font-family: 'Kingsoft';
 	font-size: 2rem;
 	text-align: center;
 	font-weight: 300;
 	font-size: 64px;
 	background: linear-gradient(180deg, #F0F0F0 30%, rgba(240, 240, 240, 0) 87%);
-	-webkit-background-clip: text;
 	 -webkit-text-fill-color: transparent;
 	background-clip: text;
 	 text-fill-color: transparent;
 }
 
 .sub-title{
+	position: relative;
 	font-family: 'Kingsoft';
 	font-size: 1rem;
 	text-align: center;
@@ -59,50 +61,43 @@ html, body {
 	color: #F0F0F0;
 }
 
-.center{
-	display: flex;
-	justify-content: center;
+.arrow{
+	position: relative;
+	top: 25%;
+	display: grid;
+	height: auto;
+	align-items: center;
 }
 
 .arrow-down{
 	position: relative;
-	top: 400px;
-	transition: stroke-width 0.3s;
-}
-
-.arrow-down:hover{
-	stroke-width: 3;
+	margin: 0 auto;
 }
 
 .sentence{
 	position: relative;
-	top: 420px;
+	justify-content: center;
 	font-family: 'Siyuan';
 	font-size: 18px;
+	height: 42px;
+	line-height: 42px;
 	text-align: center;
 }
 
-.section{
-	width: 100vw;
-}
-
 #second-page{
-	height: auto;
-	max-height: 100%;
-	overflow: auto;
+	display: grid;
+	align-items: center;
 }
 
 .page-container{
-	height: 100%;
-	width: 100vw;
-	overflow: auto;
-	max-height: 100%;
-	}
+	margin: auto;
+	display: grid;
+	align-items: center;
+}
 
 #bonjour{
 	position: relative;
-	top: 160px;
-	padding-left: 24px;
+	margin: 24px;
 }
 
 #bonjour h3{
@@ -119,9 +114,9 @@ html, body {
 
 .item-menu{
 	position: relative;
+	top: 10%;
 	display: flex;
 	flex-wrap: wrap;
-	top: 220px;
 	justify-content: center;
 }
 
@@ -157,39 +152,6 @@ html, body {
 	font-size: 10px;
 }
 
-.download-button{
-	position: relative;
-	top: 80px;
-	border: #F0F0F0 1px solid;
-	width: 120px;
-	border-radius: 4px;
-	color: #F0F0F0;
-	height: 24px;
-	text-align: center;
-	font-size: 16px;
-}
-
-.book-info{
-	border: #888888 2px solid;
-	border-radius: 8px;
-	margin: 8px;
-	padding: 4px;
-	height: 240px;
-	width: 200px;
-	display: grid;
-	justify-content: center;
-}
-
-.book-title{
-	position: relative;
-	top: 160px;
-	font-weight: 600;
-	font-size: 16px;
-	line-height: 16px;
-	height: 20px;
-	text-align: center;
-}
-
 .work-menu{
 	padding: 16px;
 	display: flex;
@@ -204,7 +166,7 @@ html, body {
 	width: 320px;
 	height: 160px;
 	border-radius: 16px;
-	margin: 0 8px 16px;
+	margin: 16px 16px;
 }
 
 .item-title{
