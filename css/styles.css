@@ -5,8 +5,16 @@
 
 a{
 	text-decoration: none;
+	border-bottom: transparent 1px solid;
+	transition: border-color 0.4s ease; 
 	color: #F0F0F0;
 }
+
+a:hover{
+	font-weight: bolder;
+	border-bottom: #f0f0f0 1px solid;
+}
+
 
 a:visited{
 	color: #F0F0F0;
