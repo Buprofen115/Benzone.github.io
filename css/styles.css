@@ -19,9 +19,6 @@ html, body {
 	font-family: 'Harmony';
 }
 
-#homepage{
-}
-
 .fp-tableCell{
 	display: flex;
 }
@@ -151,6 +148,33 @@ html, body {
 	margin-top: 4px;
 	font-size: 10px;
 }
+
+.container{
+	height: 100%;
+}
+
+
+.head{
+	position: fixed;
+	height: 64px;
+	width: 100%;
+	background: rgba(24, 24, 24, 0.8);
+	backdrop-filter: blur(10px);
+	border-bottom: #888888 1px solid;
+	margin-bottom: 32px;
+	z-index: 5;
+}
+
+.head-link{
+	font-weight: thin;
+	margin-left: 8%;
+	line-height: 64px;
+}
+
+.current{
+	font-weight: bold;
+}
+
 
 .work-menu{
 	padding: 16px;
