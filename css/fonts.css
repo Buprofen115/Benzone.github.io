@@ -38,6 +38,31 @@
     src: url('../fonts/LiXuKe.ttf') format('truetype');
 }
 
+@font-face {
+    font-family: 'Roboto';
+    src: url('../fonts/Roboto-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Titil';
+    src: url('../fonts/TitilliumWeb-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Douyu';
+    src: url('../fonts/douyuFont.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'Dakai';
+    src: url('../fonts/Alimama_DongFangDaKai_Regular.ttf') format('Truetype');
+}
+
+@font-face {
+    font-family: 'Daoli';
+    src: url('../fonts/AlimamaDaoLiTi.ttf') format('Truetype');
+}
+
 .Siyuan{
 	font-family: 'Siyuan';
 }
@@ -56,4 +81,24 @@
 
 .Lixuke{
 	font-family: 'LiXuKe';
+}
+
+.Roboto{
+	font-family: 'Roboto';
+}
+
+.Titil{
+	font-family: 'Titil';
+}
+
+.Douyu{
+	font-family: 'Douyu';
+}
+
+.Dakai{
+	font-family: 'Dakai';
+}
+
+.Daoli{
+	font-family: 'Daoli';
 }
