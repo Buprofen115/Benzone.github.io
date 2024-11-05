@@ -1,9 +1,17 @@
 #Mrzhu{
-	background: linear-gradient(180deg, #007531 0%, #013912 100%)
+	background: linear-gradient(180deg, #0c772a 0%, #70bf43 100%)
 }
 
 #BoShiTu{
-	background: linear-gradient(180deg, #bbccdc 0%, #8ba6bb 100%)
+	background: linear-gradient(180deg, #1c2026 0%, #778495 100%)
+}
+
+#FuRuiKang{
+	background: linear-gradient(180deg, #272c8c 0%, #1b57a6 100%)
+}
+
+#The-Waves{
+	background: linear-gradient(180deg, #C81511 0%, #262626 100%)
 }
 
 .article-title{
@@ -90,8 +98,4 @@
 	margin: auto 8px;
 	color: #9E9E9E;
 	font-size: 24px;
-}
-
-.end{
-	height: 80px;
 }
