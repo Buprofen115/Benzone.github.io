@@ -14,6 +14,10 @@
 	background: linear-gradient(180deg, #C81511 0%, #262626 100%)
 }
 
+#Taian{
+	background: linear-gradient(180deg, #710d2e 0%, #093070 100%);
+}
+
 .article-title{
 	font-size: 24px;
 	font-weight: bold;
