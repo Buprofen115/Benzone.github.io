@@ -1,36 +1,41 @@
 @font-face {
     font-family: 'Kingsoft';
-    src: url('../font/Kingsoft_Cloud_Font.ttf') format('truetype');
+    src: url('../fonts/Kingsoft_Cloud_Font.ttf') format('truetype');
 }
 
 @font-face {
     font-family: 'Siyuan';
-    src: url('../font/SourceHanSerifCN-Regular.otf') format('opentype');
+    src: url('../fonts/SourceHanSerifCN-Regular.otf') format('opentype');
 }
 
 @font-face {
     font-family: 'Harmony';
-    src: url('../font/HarmonyOS_Sans_SC_Regular.ttf') format('truetype');
+    src: url('../fonts/HarmonyOS_Sans_SC_Regular.ttf') format('truetype');
 }
 
 @font-face {
     font-family: 'Smiley';
-    src: url('../font/SmileySans-Oblique.ttf') format('truetype');
+    src: url('../fonts/SmileySans-Oblique.ttf') format('truetype');
 }
 
 @font-face {
     font-family: 'Libre';
-    src: url('../font/LibreBaskerville-Regular.ttf') format('truetype');
+    src: url('../fonts/LibreBaskerville-Regular.ttf') format('truetype');
 }
 
 @font-face {
     font-family: 'Hanson';
-    src: url('../font/Hanson.ttf') format('truetype');
+    src: url('../fonts/Hanson.ttf') format('truetype');
 }
 
 @font-face {
     font-family: 'Yellowtail';
-    src: url('../font/Yellowtail-Regular.ttf') format('truetype');
+    src: url('../fonts/Yellowtail-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Lixuke';
+    src: url('../fonts/LiXuKe.ttf') format('truetype');
 }
 
 .Siyuan{
@@ -47,4 +52,8 @@
 
 .Hanson{
 	font-family: 'Hanson';
+}
+
+.Lixuke{
+	font-family: 'LiXuKe';
 }
